@@ -5,5 +5,4 @@ FoodFLix is a Foodtech startup which currently work to a new application that gi
 
 ## FIles
 - Dataset URL : https://www.kaggle.com/openfoodfacts/world-food-facts
-- Data_exploratory : exploratory analysis of Dataframe (shape, nb columns, comments about cleaning)
 - Data_cleaning : cleaning of dataset
