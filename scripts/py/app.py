@@ -19,7 +19,7 @@ allergens = st.sidebar.multiselect('Quels allergènes souhaitez-vous exclure ?',
 
 nutriscore = st.sidebar.multiselect('Quel nutriscore souhaitez-vous pour votre produit ?', df['nutrition_grade'].unique())
 
-nlp_model = st.sidebar.radio('Type de recherche souhaitée : ' , ['TFIDF', 'CountVectorizer', 'BERT'])
+nlp_model = st.sidebar.radio('Type de recherche souhaitée : ' , ['TFIDF', 'CountVectorizer'])
 
 # correct typo from user
 if product:
